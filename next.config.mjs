@@ -4,6 +4,7 @@ const nextConfig = {
     staleTimes: {
       dynamic: 30,
     },
+    serverComponentsExternalPackages: ['@node-rs/argon2']
   },
 };
 
